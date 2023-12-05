@@ -23,7 +23,12 @@ const fetchGitHubRepo = async (repoName: string) => {
   }
 };
 
-const GitHubReposFetcher: React.FC<{ repoName: string }> = ({ repoName }) => {
+interface GitHubReposFetcherProps {
+  repoName: string;
+  desc: string;
+}
+
+const GitHubReposFetcher: React.FC<GitHubReposFetcherProps> = ({ repoName, desc }) => {
   const [repository, setRepository] = useState<Repository | null>(null);
 
   useEffect(() => {
@@ -44,10 +49,10 @@ const GitHubReposFetcher: React.FC<{ repoName: string }> = ({ repoName }) => {
   }
 
   return (
-    <div>
-      <h1>{repository.name}</h1>
-      <p>{repository.description}</p>
-      <a href={repository.html_url} target="_blank" rel="noopener noreferrer">
+    <div className='mt-7 group'>
+      <h1 className='group-hover:text-accent'>{repository.name}</h1>
+      <p>{desc}</p>
+      <a className='group-hover:text-accent' href={repository.html_url} target="_blank" rel="noopener noreferrer">
         View on GitHub
       </a>
     </div>
@@ -55,4 +60,3 @@ const GitHubReposFetcher: React.FC<{ repoName: string }> = ({ repoName }) => {
 };
 
 export default GitHubReposFetcher;
-
