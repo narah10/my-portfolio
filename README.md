@@ -1,32 +1,34 @@
 # Overview
 
-{Important! Do not say in this section that this is college assignment. Talk about what you are trying to accomplish as a software engineer to further your learning.}
+I'm a front-end web developer with a passion for learning and improving. I built this portfolio website to stay updated on the latest web technologies and best practices with TypeScript. My goal is to showcase my experience and skills as I continue to grow in the field of software engineering.
 
-{Provide a description of the software that you wrote.}
 
-{Describe your purpose for writing this software.}
+I developed this porfolio website with TypeScript, React and Tailwind. The website mostly focuses on introducing myself and showing the skills I have in web development. I was able to implement a github api so I can display my github repositories as well. Visitors can navigate through the projects from github and can also visit those repositories as well.
+
 
 {Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running and a walkthrough of the code.}
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/kE0mHt4lOPM)
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
+- Visual Studio Code
+- Github
 
-{Describe the programming language that you used and any libraries.}
+Here are the programming languages I used for this software 
+- JavaScript
+- TypeScript
+- Tailwind
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-
-- [Web Site Name](http://url.link.goes.here)
-- [Web Site Name](http://url.link.goes.here)
+- [Medium.com](https://medium.com/@jeandesravines/reusable-react-components-in-typescript-10bf3ad8e880)
+- [Tailwind](https://tailwindcss.com/docs/isolation)
 
 # Future Work
 
 {Make a list of things that you need to fix, improve, and add in the future.}
 
-- Item 1
-- Item 2
-- Item 3
+- I want to improve the CSS styling
+- I also want to work on improving the user interaction experience on this website
+- I want to host this website so I can share it with others
